@@ -22,7 +22,6 @@ public class Main {
         System.out.println("Prices of products with discount: ");
         for (Product product : products) {
             product.accept(visitor);
-            System.out.println(visitor.getTotalPrice());
         }
 
     }
